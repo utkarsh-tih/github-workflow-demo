@@ -7,7 +7,7 @@ from calculator.advanced_operations import factorial, logarithm, square_root
 from calculator.operations import add, divide, multiply, power, subtract
 
 
-def main():
+def main() -> None:
     """Main application function."""
     print("🧮 Demo Calculator")
     print("=" * 20)
